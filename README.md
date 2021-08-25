@@ -5,8 +5,6 @@
 
 ## Pixel-Level Face Image Quality Assessment for Explainable Face Recognition
 
-<img src="Overview.png" height="350" align="right">
-
 * [Research Paper](https://arxiv.org/abs/2003.09373) 
 * [Implementation on ArcFace](face_image_quality.py)
 
@@ -26,7 +24,7 @@
 
 An essential factor to achieve high performance in face recognition systems is the quality of its samples. Since these systems are involved in various daily life there is a strong need of making face recognition processes understandable for humans. In this work, we introduce the concept of pixellevel face image quality that determines the utility of pixels in a face image for recognition. Given an arbitrary face recognition network, in this work, we propose a trainingfree approach to assess the pixel-level qualities of a face image. To achieve this, a model-specific quality value of the input image is estimated and used to build a samplespecific quality regression model. Based on this model, quality-based gradients are back-propagated and converted into pixel-level quality estimates. In the experiments, we qualitatively and quantitatively investigated the meaningfulness of the pixel-level qualities based on real and artificial disturbances and by comparing the explanation maps on ICAO-incompliant faces. In all scenarios, the results demonstrate that the proposed solution produces meaningful pixel-level qualities.
 
-
+<img src="Overview.png" height="400">
 
 ## Key Points
 
