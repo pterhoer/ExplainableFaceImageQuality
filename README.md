@@ -24,7 +24,7 @@
 
 An essential factor to achieve high performance in face recognition systems is the quality of its samples. Since these systems are involved in various daily life there is a strong need of making face recognition processes understandable for humans. In this work, we introduce the concept of pixel-level face image quality that determines the utility of pixels in a face image for recognition. Given an arbitrary face recognition network, in this work, we propose a training-free approach to assess the pixel-level qualities of a face image. To achieve this, a model-specific quality value of the input image is estimated and used to build a sample-specific quality regression model. Based on this model, quality-based gradients are back-propagated and converted into pixel-level quality estimates. In the experiments, we qualitatively and quantitatively investigated the meaningfulness of the pixel-level qualities based on real and artificial disturbances and by comparing the explanation maps on ICAO-incompliant faces. In all scenarios, the results demonstrate that the proposed solution produces meaningful pixel-level qualities. 
 
-<img src="Overview.png" height="400">
+<img src="Overview.png" height="450">
 
 ## Key Points
 
@@ -32,10 +32,34 @@ An essential factor to achieve high performance in face recognition systems is t
 - point 2 ...
 
 ## Results
-todo 
+
+The proposed pixel-level quality estimation approach is analysed from two directions. First, low-quality face images with low-quality areas, such as occlusions, are localised and inpainted to demonstrate that this improves the face image quality. Second, random masks are placed on high-quality faces to show that the proposed methodology identifies these as low-quality areas. Both evaluation approaches, enhancing low-quality images and degrading high-quality images,
+aim at quantitatively (via quality-changes) and qualitatively (via changes in the PLQ-maps) investigating the effectiveness of the proposed PLQA approach. Lastly, the
+PLQ-maps are investigated on ICAO-incompliant faces.
+
+In the following, we will focus on some qualitative results. For more details and quanitative results, please take a look the paper.
 
 
-<img src="FQA-Results/001FMR_lfw_arcface.png" width="430" >  <img src="FQA-Results/001FMR_adience_arcface.png" width="430" >
+**PLQ explanation maps before and after inpainting** - Images before and after the inpainting process are shown with their
+corresponding PLQ-maps and FIQ values. The images show the effect of small and large occlusions, glasses, headgears, and beards on the
+PLQ-maps for two FR models. In general, these are identified as areas of low pixel-quality and inpainting these areas strongly increases
+the pixel-qualities of these areas as well as the FIQ. This demonstrates that our solution leads to reasonable pixel-level quality estimates
+and thus can give interpretable recommendations on the causes of low quality estimates.
+
+<img src="Results ArcFace Inpainting.png"  > 
+
+**PLQ-explanation maps for random masks** - For two random identities, their masked and unmasked images are shown with
+their corresponding PLQ-maps. In general, the effect of the mask on the PLQ-map is clearly visible demonstrating the effectiveness of the
+proposed approach to detect disturbances.
+
+<img src="Results ArcFace Masking.png"  > 
+
+**PLQ-explanation maps for ICAO imcompliant images** - One ICAO-compliant image and twelve images with imcompliances
+are shown with their corresponding PLQ-maps. Occlusions (b,c,d), distorted areas of the face (f), and reflections result in low-pixel
+qualities.
+
+<img src="Results ArcFace ICAO.png"  > 
+
 
 ## Installation
 to do marco
