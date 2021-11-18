@@ -28,8 +28,13 @@ An essential factor to achieve high performance in face recognition systems is t
 
 ## Key Points
 
-- point 1
-- point 2 ...
+To summarize, the proposed Pixel-Level Quality Assessment approach 
+- can be applied on arbitrary FR networks,
+- does not require training, 
+-  and provides a pixel-level utility description of an input face explaining how well pixels in a face image are suited for recognition (prior to any matching).
+
+The solution can explain why an image cannot be used as a reference image during the acquisition/enrolment process and in which area of the face the subject have to do changes to increase the quality. Consequently, PLQ maps provide guidance on the reasons behind low quality images, and thus can provide interpretable instructions to improve the FIQ.
+
 
 ## Results
 
@@ -93,8 +98,6 @@ If you use this code, please cite the following paper.
   biburl    = {https://dblp.org/rec/journals/corr/abs-2110-11001.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
-
-
 ```
 
 If you make use of our implementation based on ArcFace, please additionally cite the original ![ArcFace module](https://github.com/deepinsight/insightface).
