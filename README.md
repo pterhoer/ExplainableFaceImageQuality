@@ -42,7 +42,7 @@ The proposed pixel-level quality estimation approach is analysed from two direct
 aim at quantitatively (via quality-changes) and qualitatively (via changes in the PLQ-maps) investigating the effectiveness of the proposed PLQA approach. Lastly, the
 PLQ-maps are investigated on ICAO-incompliant faces.
 
-In the following, we will focus on some qualitative results. For more details and quanitative results, please take a look the paper.
+In the following, we will focus on some qualitative results. For more details and quanitative results, please take a look at the paper.
 
 
 **PLQ explanation maps before and after inpainting** - Images before and after the inpainting process are shown with their
