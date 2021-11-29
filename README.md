@@ -81,9 +81,16 @@ src/plots
 ```
 directory for the PLQ-maps.
 
-To run the code, use the *XFIQ.py* file. All parameters can be adjusted there. The script takes all images from a folder and saves the raw gradients as well 
+To run the code, use the *XFIQ.py* file in the src-folder: 
+
+```
+python XFIQ.py
+```
+
+All parameters can be adjusted there. The script takes all images from a folder and saves the raw gradients as well 
 as the explanation maps, inluding the quality values. The images need to be preprocessed (cropped, aligned). The proprocessing can be done using the 
-*setup_img(img)* method in *preprocessing.py*.
+*setup_img(img)* method in *preprocessing.py*. The preprocessing script requires [skimage](https://scikit-image.org/docs/stable/install.html) and [MTCNN](https://github.com/ipazc/mtcnn)
+to be installed. 
 
 
 
