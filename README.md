@@ -81,6 +81,10 @@ src/plots
 ```
 directory for the PLQ-maps.
 
+To run the code, use the XIFQ.py file. All parameters can be adjusted there. The script takes all images from a folder and saves the raw gradients as well 
+as the explanation maps, inluding the quality values. The images need to be preprocessed (cropped, aligned). The proprocessing can be done using the 
+setup_image method in preprocessing.py
+
 
 
 
