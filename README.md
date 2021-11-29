@@ -67,7 +67,7 @@ qualities.
 
 
 ## Installation
-Python 3.7 or 3.8 is recommended. Requires [opencv-python>=4.5.2.52](https://pypi.org/project/opencv-python/), Tensorflow>=2.3.0, numpy>=1.20.3, sklearn>=0.24.2, matplotlib>=3.4.2 and [tqdm](https://github.com/tqdm/tqdm)
+Python 3.7 or 3.8 is recommended. Requires opencv-python>=4.5.2.52, Tensorflow>=2.3.0, numpy>=1.20.3, sklearn>=0.24.2, matplotlib>=3.4.2 and tqdm>=4.60.0.
 
 Download the [weights-file](https://drive.google.com/file/d/1pOB0MUg6hkyVF6VNzjTbJ_k3X1_hXyG4/view?usp=sharing) and place it in the src-folder. 
 The Keras-based ArcFace model is then created during the first execution. Create 
@@ -91,7 +91,7 @@ All parameters can be adjusted there. The script takes all images from a folder 
 as the explanation maps, inluding the quality values. 
 
 The images need to be preprocessed (cropped, aligned). The proprocessing can be done using the 
-*setup_img(img)* method in *preprocessing.py*. The preprocessing script requires [skimage](https://scikit-image.org/docs/stable/install.html) and [MTCNN](https://github.com/ipazc/mtcnn)
+*setup_img(img)* method in *preprocessing.py*. The preprocessing script requires skimage>=0.18.1 and MTCNN>=0.1.0
 to be installed. 
 
 
