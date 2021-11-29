@@ -67,7 +67,7 @@ qualities.
 
 
 ## Installation
-Python 3.7 or 3.8 is recommended. Requires [opencv-python](https://pypi.org/project/opencv-python/), Tensorflow>=2.3, numpy, sklearn, matplotlib, [tqdm](https://github.com/tqdm/tqdm)
+Python 3.7 or 3.8 is recommended. Requires [opencv-python>=4.5.2.52](https://pypi.org/project/opencv-python/), Tensorflow>=2.3.0, numpy>=1.20.3, sklearn>=0.24.2, matplotlib>=3.4.2 and [tqdm](https://github.com/tqdm/tqdm)
 
 Download the [weights-file](https://drive.google.com/file/d/1pOB0MUg6hkyVF6VNzjTbJ_k3X1_hXyG4/view?usp=sharing) and place it in the src-folder. 
 The Keras-based ArcFace model is then created during the first execution. Create 
