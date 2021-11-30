@@ -1,6 +1,6 @@
 # Explainable Face Image Quality
 
-***25.08.2021*** _start readme_
+***31.11.2021*** make public
 
 
 ## Pixel-Level Face Image Quality Assessment for Explainable Face Recognition
@@ -135,6 +135,6 @@ This work was carried out during the tenure of an ERCIM ’Alain Bensoussan‘ F
 
 ## License 
 
-This project is licensed under the terms of the Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license.
+This project is licensed under the terms of the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
 Copyright (c) 2021 Fraunhofer Institute for Computer Graphics Research IGD Darmstadt
 
