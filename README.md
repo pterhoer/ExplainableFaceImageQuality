@@ -1,12 +1,11 @@
 # Explainable Face Image Quality
 
-***31.11.2021*** make public
 
 
 ## Pixel-Level Face Image Quality Assessment for Explainable Face Recognition
 
 * [Research Paper](https://arxiv.org/abs/2110.11001) 
-* [Implementation on ArcFace](face_image_quality.py)
+* [Implementation on ArcFace](src/XFIQ.py)
 
 
 
