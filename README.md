@@ -94,8 +94,10 @@ The images need to be preprocessed (cropped, aligned). The proprocessing can be 
 to be installed. 
 
 
+## Related works
 
-
+- IJCB 2023: Explaining Face Recognition Through SHAP-Based Pixel-Level Face Image Quality Assessment
+- EUSIPCO 2022: On Evaluating Pixel-Level Face Image Quality Assessment
 
 
 ## Citing
