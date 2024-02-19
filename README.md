@@ -88,7 +88,7 @@ python XFIQ.py
 ```
 
 All parameters can be adjusted there. The script takes all images from a folder and saves the raw gradients as well 
-as the explanation maps, inluding the quality values. 
+as the explanation maps, including the quality values. 
 
 The images need to be preprocessed (cropped, aligned). The proprocessing can be done using the 
 *setup_img(img)* method in *preprocessing.py*. The preprocessing script requires skimage>=0.18.1 and MTCNN>=0.1.0
@@ -122,12 +122,12 @@ If you use this code, please cite the following paper.
 }
 ```
 
-If you make use of our implementation based on ArcFace, please additionally cite the original ![ArcFace module](https://github.com/deepinsight/insightface).
+If you make use of our implementation based on ArcFace, please additionally cite the original![ArcFace module](https://github.com/deepinsight/insightface).
 
 ## Related Works
 
 - IJCB 2023: Explaining Face Recognition Through SHAP-Based Pixel-Level Face Image Quality Assessment
-- EUSIPCO 2022: [On Evaluating Pixel-Level Face Image Quality Assessment}(https://eurasip.org/Proceedings/Eusipco/Eusipco2022/pdfs/0001052.pdf)
+- EUSIPCO 2022: [On Evaluating Pixel-Level Face Image Quality Assessment](https://eurasip.org/Proceedings/Eusipco/Eusipco2022/pdfs/0001052.pdf)
 
 ## Acknowledgement
 
