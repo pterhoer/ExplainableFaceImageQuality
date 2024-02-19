@@ -16,6 +16,7 @@
 - [Results](#results)
 - [Installation](#installation)
 - [Citing](#citing)
+- [Related Works](#related-works)
 - [Acknowledgement](#acknowledgement)
 - [License](#license)
 
@@ -94,11 +95,6 @@ The images need to be preprocessed (cropped, aligned). The proprocessing can be 
 to be installed. 
 
 
-## Related works
-
-- IJCB 2023: Explaining Face Recognition Through SHAP-Based Pixel-Level Face Image Quality Assessment
-- EUSIPCO 2022: On Evaluating Pixel-Level Face Image Quality Assessment
-
 
 ## Citing
 
@@ -127,6 +123,11 @@ If you use this code, please cite the following paper.
 ```
 
 If you make use of our implementation based on ArcFace, please additionally cite the original ![ArcFace module](https://github.com/deepinsight/insightface).
+
+## Related Works
+
+- IJCB 2023: Explaining Face Recognition Through SHAP-Based Pixel-Level Face Image Quality Assessment
+- EUSIPCO 2022: On Evaluating Pixel-Level Face Image Quality Assessment
 
 ## Acknowledgement
 
