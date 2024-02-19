@@ -127,7 +127,7 @@ If you make use of our implementation based on ArcFace, please additionally cite
 ## Related Works
 
 - IJCB 2023: Explaining Face Recognition Through SHAP-Based Pixel-Level Face Image Quality Assessment
-- EUSIPCO 2022: On Evaluating Pixel-Level Face Image Quality Assessment
+- EUSIPCO 2022: [On Evaluating Pixel-Level Face Image Quality Assessment}(https://eurasip.org/Proceedings/Eusipco/Eusipco2022/pdfs/0001052.pdf)
 
 ## Acknowledgement
 
