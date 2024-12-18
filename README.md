@@ -69,7 +69,7 @@ qualities.
 ## Installation
 Python 3.7 or 3.8 is recommended. Requires opencv-python>=4.5.2.52, Tensorflow>=2.3.0, numpy>=1.20.3, sklearn>=0.24.2, matplotlib>=3.4.2 and tqdm>=4.60.0.
 
-Download the [weights-file](https://drive.google.com/file/d/1pOB0MUg6hkyVF6VNzjTbJ_k3X1_hXyG4/view?usp=sharing) and place it in the src-folder. 
+Download the [weights-file](https://owncloud.fraunhofer.de/index.php/s/TchwFEPL86gHjAY) and place it in the src-folder. 
 The Keras-based ArcFace model is then created during the first execution. Create 
 ```
 src/gradients 
